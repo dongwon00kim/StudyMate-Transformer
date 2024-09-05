@@ -58,6 +58,6 @@ RUN git clone https://github.com/cpm0722/transformer_pytorch.git
 
 # ==================================================================
 
-RUN https://github.com/dongwon00kim/StudyMate-Transformer.git
+RUN git clone https://github.com/dongwon00kim/StudyMate-Transformer.git
 
 WORKDIR /workspace/StudyMate-Transformer
