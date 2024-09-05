@@ -53,7 +53,8 @@ RUN git clone https://github.com/openai/whisper.git && \
     cd whisper && \
     pip install -e .
 
-RUN git clone https://github.com/cpm0722/transformer_pytorch.git
+# RUN git clone https://github.com/cpm0722/transformer_pytorch.git
+RUN git clone https://github.com/dongwon00kim/transformer_pytorch.git
 
 
 # ==================================================================
