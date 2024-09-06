@@ -47,7 +47,8 @@ RUN [ ${#TORCH_AUDIO} -gt 0 ] && VERSION='torchaudio=='$TORCH_AUDIO ||  VERSION=
 WORKDIR /workspace
 RUN git clone https://github.com/huggingface/transformers.git && \
     cd transformers && \
-    pip install -e .
+    pip install -e . && \
+    pip install accelerate datasets
 
 RUN git clone https://github.com/openai/whisper.git && \
     cd whisper && \
